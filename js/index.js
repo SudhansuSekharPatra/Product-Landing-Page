@@ -1,6 +1,6 @@
 const menuBtn = document.querySelector(".menu-btn");
 let menuOpen = false;
-const navList = document.querySelectorAll(".nav__list");
+const navLink = document.querySelectorAll(".nav-link");
 const buyButton = document.querySelector(".buy-btn");
 
 menuBtn.addEventListener("click", () => {
@@ -9,7 +9,7 @@ menuBtn.addEventListener("click", () => {
 	document.body.classList.toggle("buy-btn-open");
 });
 
-navList.forEach((link) => {
+navLink.forEach((link) => {
 	link.addEventListener("click", () => {
 		document.body.classList.remove("menu-btn-open");
 	});
