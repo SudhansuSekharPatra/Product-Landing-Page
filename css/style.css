@@ -236,15 +236,6 @@ label {
    padding: 1.5em;
 }
 
-.insta-link {
-   color: var(--clr-grey);
-   text-decoration: none;
-}
-
-.insta-link:hover {
-   color: var(--clr-white);
-}
-
 /***** Media Queries *****/
 
 @media (max-width:768px) {
